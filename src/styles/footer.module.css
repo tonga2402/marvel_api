@@ -1,0 +1,38 @@
+.containDiv{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: end;
+   margin: 0px auto;
+
+}
+.footerDiv{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    bottom: 3%;
+}
+
+.footerUl{
+    display: flex;
+    gap: 90px;
+}
+
+.footerLi{
+    list-style: none;
+    margin-left: -50px;
+    transition: transform .7s ease-in-out;
+}
+.footerLi:hover{
+    transform: rotate(360deg);
+}
+
+.footerA{
+    font-size: 30px;
+    color: white;
+}
+
+span{
+    color: #0d2ea7;
+}

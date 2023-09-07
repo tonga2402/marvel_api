@@ -1,0 +1,12 @@
+.homeDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 25vh auto;
+}
+
+.homeImg{
+    position: absolute;
+    width: 500px;
+    z-index: -2;
+}

@@ -1,0 +1,102 @@
+.navbarDiv{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 1px auto;
+}
+
+.navbarUl{
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+
+.navbarLi1{
+    list-style: none;
+}
+.navbarLi2{
+    list-style: none;
+}
+
+.navbarLi1::before{
+    content: "";
+    display: block;
+    background-color: white;
+    top: -3px;
+    position: absolute;
+    width: 0px;
+    height: 1px;
+}
+.navbarLi1:hover:before{
+    width: 67px;
+    transition: 0.5s;
+}
+
+
+.navbarLi1::after{
+    content: "";
+    display: block;
+    background-color: white;
+    top: 23px;
+    right: 178px;
+    position: absolute;
+    width: 0px;
+    height: 1px;
+}
+.navbarLi1:hover::after{
+    width: 67px;
+    transition: 0.5s;
+}
+
+
+.navbarLi2::before{
+    content: "";
+    display: block;
+    background-color: white;
+    top: -3px;
+    position: absolute;
+    width: 0px;
+    height: 1px;
+}
+.navbarLi2:hover:before{
+    width: 125px;
+    transition: 0.5s;
+}
+.navbarLi2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    top: 23px;
+    right: 2px;
+    position: absolute;
+    width: 0px;
+    height: 1px;
+}
+.navbarLi2:hover::after{
+    width: 125px;
+    transition: 0.5s;
+}
+
+
+.navbarLink{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbarImg{
+    width: 120px;
+}
+
+.backImg{
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    top:0px;
+    box-shadow: -3px 0px 10px 3px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+

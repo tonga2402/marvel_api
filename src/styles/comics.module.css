@@ -1,0 +1,33 @@
+.comicDiv{
+    position: relative;
+    width: 950px;
+    height: 500px;
+    margin: 20px auto;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    scrollbar-width: none
+}
+
+.comicDiv::-webkit-scrollbar {
+    width: 0;
+}
+
+.cardComicDiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(14, 17, 23);
+    padding: 20px;
+}
+
+.cardComicImg{
+    width: 100px;
+}
+
+.cardP{
+    padding: 30px;
+}
